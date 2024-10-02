@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Genre Selector</title>
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+    <div class="container">
+        <h1>Music Genre Selector</h1>
+        <div class="genre-list">
+            
+            <div class="genre-button" onclick="navigateTo('hindi.html')">
+                <img src="https://firebasestorage.googleapis.com/v0/b/project-1-c6396.appspot.com/o/img-1.jpeg?alt=media&token=3681425d-90db-4948-813a-4da25235f639" alt="Hindi Genre Cover" class="cover-image">
+                <h3>Hindi</h3>
+            </div>
+            <div class="genre-button" onclick="navigateTo('telugu.html')">
+                <img src="https://firebasestorage.googleapis.com/v0/b/project-1-c6396.appspot.com/o/img-2.jpeg?alt=media&token=b18d53f1-385c-467b-87f3-fd9c95d33ede" alt="Telugu Genre Cover" class="cover-image">
+                <h3>Telugu</h3>
+            </div>
+            <div class="genre-button" onclick="navigateTo('tamil.html')">
+                <img src="https://firebasestorage.googleapis.com/v0/b/project-1-c6396.appspot.com/o/img-3.jpeg?alt=media&token=f5b50c24-53e0-47a5-8065-e88bdb35f1bf" alt="Tamil Genre Cover" class="cover-image">
+                <h3>Tamil</h3>
+            </div>
+            <div class="genre-button" onclick="navigateTo('rock.html')">
+                <img src="https://firebasestorage.googleapis.com/v0/b/project-1-c6396.appspot.com/o/img-6.jpeg?alt=media&token=bb7cdeee-655a-4877-bf2b-89918174a450" alt="Rock Genre Cover" class="cover-image">
+                <h3>Rock</h3>
+            </div>
+        </div>
+    </div>
+
+    <button class="toggle-button" onclick="toggleTheme()">🌙</button>
+    <button class="back-to-top" onclick="scrollToTop()">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
